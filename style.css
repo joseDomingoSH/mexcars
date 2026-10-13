@@ -1,0 +1,22 @@
+:root{
+    --txt-color: #0a83c0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--txt-color);
+}
+form{
+    text-align: center;
+}
+form label{
+    color: var(--txt-color);
+}
+
+form button{
+    color: var(--txt-color);
+    border-radius: 15px;
+    background-color: #a5f79e;
+}
