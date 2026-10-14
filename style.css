@@ -1,0 +1,80 @@
+.seccion-portada {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+                url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu-enlaces {
+    display: flex;
+    gap: 25px;
+}
+
+.item-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.item-menu a:hover {
+    color: #e63946;
+}
+
+.contenido-portada {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.titulo-portada {
+    font-size: 44px;
+    font-weight: bold;
+    max-width: 800px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.slogan-portada {
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 35px;
+    color: #e0e0e0;
+}
+
+.contenedor-botones {
+    display: flex;
+    gap: 15px;
+}
+
+.boton a {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #e63946;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
