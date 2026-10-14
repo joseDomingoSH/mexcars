@@ -1,0 +1,432 @@
+.seccion.acerca {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    margin-bottom: 5rem;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.seccion.acerca div {
+    width: 70%;
+}
+
+.seccion.acerca h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.seccion.acerca p {
+    text-align: justify;
+}
+
+.seccion.acerca .etiqueta {
+    text-align: center;
+    color: seagreen;
+    font-weight: bold;
+}
+
+/* Ventajas */
+
+.ventajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.ventajas article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: springgreen;
+    color: black;
+}
+
+.ventajas article:hover {
+    background-color: #0000ff50;
+    color: white;
+}
+
+.ventajas article span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ventajas article div {
+    width: 75%;
+}
+
+.ventajas article h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.ventajas article p {
+    text-align: center;
+}
+
+
+.seccion.acerca h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ventajas h3 {
+    font-family: cursive;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .seccion.acerca > div {
+        width: 45%;
+    }
+
+    .ventajas article div {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .seccion.acerca {
+        justify-content: center;
+    }
+
+    .seccion.acerca > div {
+        width: 75%;
+    }
+
+    .ventajas {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .seccion.acerca {
+        padding: 10px;
+    }
+
+    .seccion.acerca > div {
+        width: 90%;
+    }
+
+    .seccion.acerca h2 {
+        font-size: 1.7rem;
+    }
+
+    .ventajas {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .ventajas article {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .ventajas article span {
+        width: 30px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+
+    .ventajas article div {
+        width: 80%;
+    }
+
+    .ventajas article h3 {
+        font-size: 1.1rem;
+    }
+}
+
+.seccion_autos {
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+
+.seccion-titulo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.seccion-titulo > div {
+    width: 50%;
+}
+
+.seccion-titulo .etiqueta {
+    text-align: center;
+    color: springgreen;
+    font-weight: bold;
+}
+
+.seccion-titulo h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.seccion-titulo > p {
+    width: 40%;
+    text-align: center;
+}
+
+
+.filtros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.tipo_auto {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.auto {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.auto:hover {
+    background-color: darkblue;
+}
+
+
+.autos-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.auto-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+.auto-card:hover {
+    background-color: lightslategrey;
+}
+
+
+.auto-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 180px;
+    padding: 10px;
+}
+
+.imagen-azul {
+    background-color: #023f8090;
+}
+
+.imagen-roja {
+    background-color: #7a011a90;
+}
+
+.imagen-verde {
+    background-color: #00410f90;
+}
+
+.oferta {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 1%;
+}
+
+img{
+    width: 90%;
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(.85);
+    border-radius: 20px;
+}
+
+
+.auto-card {
+    position: relative;
+}
+
+.auto-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #0000ff50;
+
+    opacity: 0;
+    color: black;
+    transition: opacity 0.5s ease;
+}
+
+.marca {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.auto-info h3 {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+.descripcion {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.auto-card:hover .auto-info {
+    opacity: 1;
+}
+
+.aviso {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.seccion_autos h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .auto-card {
+        width: 45%;
+    }
+
+    .seccion-titulo {
+        justify-content: center;
+    }
+
+    .seccion-titulo > div {
+        width: 100%;
+    }
+
+    .seccion-titulo > p {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 95%;
+    }
+
+    .autos-grid {
+        justify-content: center;
+    }
+
+    .auto-card {
+        width: 75%;
+    }
+
+    .filtros {
+        justify-content: center;
+    }
+
+    .auto-dibujo {
+        font-size: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .seccion_autos h2 {
+        font-size: 1.7rem;
+    }
+
+    .auto-card {
+        width: 90%;
+        min-width: 0;
+    }
+
+    .auto-dibujo {
+        font-size: 4rem;
+    }
+
+    .precio {
+        justify-content: center;
+    }
+
+    .boton-detalles {
+        width: 100%;
+    }
+
+    .detalles {
+        justify-content: center;
+    }
+
+    .aviso {
+        font-size: 0.85rem;
+    }
+}
