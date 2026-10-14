@@ -1,66 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
 .seccion-portada {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
-                url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    height: 600px;
+    background-color: #1a1a1a;
+    background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+    justify-content: space-between;
 }
 
 .contenedor-menu {
+    font-family: 'Afacad Flux', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 25px 40px;
+    background-color: #000000;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    color: #ffffff;
 }
 
 .menu-enlaces {
     display: flex;
-    gap: 25px;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .item-menu a {
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
-    transition: color 0.3s;
-}
-
-.item-menu a:hover {
-    color: #e63946;
+   
 }
 
 .contenido-portada {
-    flex: 1;
+    font-family: 'Afacad Flux', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+    padding: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .titulo-portada {
-    font-size: 44px;
+    font-size: 40px;
     font-weight: bold;
+    color: #ffffff;
     max-width: 800px;
-    margin-bottom: 20px;
-    line-height: 1.2;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .slogan-portada {
-    font-size: 20px;
+    font-size: 18px;
+    color: #ffffff;
     max-width: 600px;
-    margin-bottom: 35px;
-    color: #e0e0e0;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .contenedor-botones {
@@ -70,11 +86,17 @@
 
 .boton a {
     display: inline-block;
-    padding: 12px 28px;
-    background-color: #e63946;
-    color: #ffffff;
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #1a1a1a;
     text-decoration: none;
-    border-radius: 6px;
     font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
+.boton-secundario a {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
