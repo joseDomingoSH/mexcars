@@ -1,5 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+:root{
+    --txt-color: #0a83c0;
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--txt-color);
+}
+form{
+    text-align: center;
+}
+form label{
+    color: var(--txt-color);
+}
+
+form button{
+    color: var(--txt-color);
+    border-radius: 15px;
+    background-color: #a5f79e;
+}
 
 body {
     margin: 0;
